@@ -11,7 +11,7 @@ import geminiResponse from "./gemini.js"
 
 const app=express()
 app.use(cors({
-    origin:"https://virtualassistant-ffme.onrender.com",
+    origin:"https://virtual-assistant-1n9h.onrender.com",
     credentials:true
 }))
 const port=process.env.PORT || 8000
